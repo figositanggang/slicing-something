@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-button {
+  box-shadow: 1px 1px 0 3px black;
+}
+
+.custom-shadow {
+  filter: drop-shadow(0 0 3rem rgba(128, 0, 128, 0.25));
+}
